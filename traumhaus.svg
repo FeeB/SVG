@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1050" height="1050"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Haus -->
+    <polygon points="60,180 240,60 480,60 660,180 60,180" fill="#87CEFA" stroke="black" stroke-width="2"></polygon>
+    <rect x="60" y="180" width="600" height="330" fill="#B4CDCD" stroke="black" stroke-width="2"></rect>
+    <line x1="60" y1="210" x2="660" y2="210" stroke="black" stroke-width="2"></line>
+    <!-- Fenster links -->
+    <rect x="90" y="240" width="180" height="90" fill="beige" stroke="black" stroke-width="2"></rect>
+    <rect x="95" y="245" width="170" height="80" fill="beige" stroke="black" stroke-width="2"></rect>
+    <line x1="95" y1="280" x2="265" y2="280" stroke="black" stroke-width="2"></line>
+    <line x1="95" y1="285" x2="265" y2="285" stroke="black" stroke-width="2"></line>
+    <line x1="180" y1="245" x2="180" y2="325" stroke="black" stroke-width="2"></line>
+    <line x1="175" y1="245" x2="175" y2="325" stroke="black" stroke-width="2"></line>
+    <!-- Fenster rechts -->
+    <rect x="450" y="240" width="180" height="90" fill="beige" stroke="black" stroke-width="2"></rect>
+    <rect x="455" y="245" width="170" height="80" fill="beige" stroke="black" stroke-width="2"></rect>
+    <line x1="455" y1="280" x2="625" y2="280" stroke="black" stroke-width="2"></line>
+    <line x1="455" y1="285" x2="625" y2="285" stroke="black" stroke-width="2"></line>
+    <line x1="540" y1="245" x2="540" y2="325" stroke="black" stroke-width="2"></line>
+    <line x1="535" y1="245" x2="535" y2="325" stroke="black" stroke-width="2"></line>
+    <!-- Tür -->
+    <rect x="300" y="390" width="120" height="120" fill="#FFD39B" stroke="black" stroke-width="2"></rect>
+    <path
+        d="
+        M 300,390
+        C 360,300 420,390 420,390"
+        fill="#FFD39B" stroke="black" stroke-width="2"/>
+    <!-- Garten -->
+    <polygon points="660,360, 930,360 930,870 60,870 60,510 660,510" fill="#228B22" stroke="black" stroke-width="2"></polygon>
+    <!-- Terasse -->
+    <polygon points="60,510 660,510 720,600 120,600 60,510" fill="#8B4500" stroke="black" stroke-width="2"></polygon>
+    <line x1="100" y1="510" x2="160" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="140" y1="510" x2="200" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="180" y1="510" x2="240" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="220" y1="510" x2="280" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="260" y1="510" x2="320" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="300" y1="510" x2="360" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="340" y1="510" x2="400" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="380" y1="510" x2="440" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="420" y1="510" x2="480" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="460" y1="510" x2="520" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="500" y1="510" x2="560" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="540" y1="510" x2="600" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="580" y1="510" x2="640" y2="600" stroke="black" stroke-width="3"></line>
+    <line x1="620" y1="510" x2="680" y2="600" stroke="black" stroke-width="3"></line>
+    <!-- Teich -->
+    <ellipse cx="300" cy="690" rx="150" ry="75" fill="blue" stroke="none"></ellipse>
+    <!-- Baum -->
+    <defs>
+        <rect id="stamm" width="60" height="280" fill="#8B4500" stroke="black" stroke-width="2"></rect>
+    </defs>
+    <use xlink:href="#stamm" transform="translate(690,240)"></use>
+    <ellipse cx="720" cy="120" rx="60" ry="120" fill="#6B8E23" stroke="black" stroke-width="2"></ellipse>
+    <use xlink:href="#stamm" transform="translate(730,270)"></use>
+    <ellipse cx="760" cy="150" rx="60" ry="120" fill="#6B8E23" stroke="black" stroke-width="2"></ellipse>
+    <use xlink:href="#stamm" transform="translate(820,240)"></use>
+    <ellipse cx="850" cy="120" rx="60" ry="120" fill="#6B8E23" stroke="black" stroke-width="2"></ellipse>
+    <!-- Blume -->
+    <defs> 
+        <g id="blume">
+            <line x1="130" y1="655" x2="130" y2="760" stroke="#8B7355" stroke-width="2"></line>
+            <ellipse rx="5" cx="130" ry="25" cy="630" fill="#8B7355" stroke="none" stroke-width="1"></ellipse>
+            <ellipse rx="7" ry="25" cx="115" cy="680" transform="rotate (-30, 115, 680)" fill="#CDAA7D" stroke="none"></ellipse>
+            <ellipse rx="7" ry="25" cx="115" cy="720" transform="rotate (-30, 115, 720)" fill="#CDAA7D" stroke="none"></ellipse>   
+            <ellipse rx="7" ry="25" cx="145" cy="720" transform="rotate (30, 145, 720)" fill="#CDAA7D" stroke="none"></ellipse> 
+            <ellipse rx="7" ry="25" cx="145" cy="680" transform="rotate (30, 145, 680)" fill="#CDAA7D" stroke="none"></ellipse>      
+        </g>
+    </defs>
+    <use xlink:href="#blume"></use>
+    <use xlink:href="#blume" transform="translate(100, 350) skewY(50) scale(.50)"></use>
+    <use xlink:href="#blume" transform="translate(100, 70)"></use>
+    <use xlink:href="#blume" transform="translate(-100, 70) skewX(30)"></use>
+    <use xlink:href="#blume" transform="translate(250, 600) scale(.30)"></use>
+    <use xlink:href="#blume" transform="translate(350, -70)"></use>
+    <use xlink:href="#blume" transform="translate(300, 500) scale(.40)"></use>
+    
+</svg>    
